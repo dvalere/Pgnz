@@ -1,4 +1,4 @@
-# Penguin Species Classification ✅
+# Penguin Species Classification
 
 This repository runs a simple exploratory data analysis and a logistic regression classifier on the Palmer Penguins dataset.
 
