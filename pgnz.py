@@ -8,9 +8,8 @@ from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDis
 
 import os
 import matplotlib
-matplotlib.use('Agg')  # use non-interactive backend so script can run in terminal
+matplotlib.use('Agg')
 
-# Robust loader: prefer local file, fallback to seaborn dataset
 df = None
 if os.path.exists("penguins.csv"):
     df = pd.read_csv("penguins.csv")
